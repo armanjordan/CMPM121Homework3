@@ -39,3 +39,5 @@ Part of “Distant Lands Free Characters” pack on unity store:
 
 Part of “Fantasy Skybox FREE” pack on unity store:
 FS002_day (found it)
+
+link to video: https://drive.google.com/file/d/1BsDRNojOpO1u404c8QoXEBveL2wwjZq7/view?usp=sharing
