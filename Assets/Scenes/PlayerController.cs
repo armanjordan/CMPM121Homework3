@@ -18,16 +18,30 @@ public class PlayerController : MonoBehaviour
     private Camera theCamera;
     private Rigidbody myRigid;
 
+    private bool pressed;
+
     void Start()
     {
+        pressed = false;
         myRigid = GetComponent<Rigidbody>();  // private
     }
 
     void Update()  
     {
-        Move();                
-        CameraRotation();      
-        CharacterRotation();   
+        if (Input.GetKeyDown(KeyCode.LeftAlt))
+        {
+            pressed = true;
+        }
+        else if (Input.GetKeyUp(KeyCode.LeftAlt))
+        {
+            pressed = false;
+        }
+
+        if (!pressed){
+            Move();
+            CameraRotation();
+            CharacterRotation();
+        }
     }
 
     private void Move()
