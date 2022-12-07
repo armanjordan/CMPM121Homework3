@@ -4,39 +4,30 @@ using UnityEngine;
 
 public class FlickerLight : MonoBehaviour
 {
-    private float minFlickerSpeed = 0.1f;
-    private float maxFlickerSpeed = 1.0f;
-    private float timer;
-    private float waitTimeSeconds = 0.0f;
+    private double timeOn = 0.1;
+    private double timeOff = 0.5;
+    private double changeTime = 0;
 
     // Start is called before the first frame update
     void Start()
     {
-        GetComponent<Light>().enabled = true;
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(GetComponent<Light>().enabled is false)
+        if (Time.time > changeTime)
         {
-            GetComponent<Light>().enabled = true;
-            timer = 0.0f;
-            waitTimeSeconds = Random.Range(minFlickerSpeed, maxFlickerSpeed);
-            do
+            GetComponent<Light>().enabled = !GetComponent<Light>().enabled;
+            if (GetComponent<Light>().enabled) 
             {
-                timer =+ 0.1f;
-            }while(timer < waitTimeSeconds);
-        }
-        else
-        {
-            GetComponent<Light>().enabled = false;
-            timer = 0.0f;
-            waitTimeSeconds = Random.Range(minFlickerSpeed, maxFlickerSpeed);
-            do
+                changeTime = Time.time + timeOn;
+            }
+            else
             {
-                timer =+ 0.1f;
-            }while(timer < waitTimeSeconds);
+            changeTime = Time.time + timeOff;
+            }
         }
     }
 }
