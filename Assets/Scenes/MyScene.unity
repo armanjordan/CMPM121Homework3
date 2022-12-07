@@ -11592,6 +11592,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: oval_tree (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5720404016215849147, guid: 3dd5ac78e5f8a442c94ffa793d1b7ff1, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3dd5ac78e5f8a442c94ffa793d1b7ff1, type: 3}
 --- !u!4 &2116617719 stripped
