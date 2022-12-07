@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class FlickerLight : MonoBehaviour
 {
-    private double timeOn = 0.1;
-    private double timeOff = 0.5;
-    private double changeTime = 0;
+    private float timeMin = 0.5f;
+    private float timeMax = 1.0f;
+    private float changeTime = 0.0f;
 
     // Start is called before the first frame update
     void Start()
@@ -22,11 +22,11 @@ public class FlickerLight : MonoBehaviour
             GetComponent<Light>().enabled = !GetComponent<Light>().enabled;
             if (GetComponent<Light>().enabled) 
             {
-                changeTime = Time.time + timeOn;
+                changeTime = Time.time + Random.Range(timeMin, timeMax);
             }
             else
             {
-            changeTime = Time.time + timeOff;
+                changeTime = Time.time + Random.Range(timeMin, timeMax);
             }
         }
     }
