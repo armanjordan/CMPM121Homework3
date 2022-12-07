@@ -6,6 +6,7 @@ public class FlickerLight : MonoBehaviour
 {
     private float timeMin = 0.5f;
     private float timeMax = 1.0f;
+    private float offMin = 0.1f;
     private float changeTime = 0.0f;
 
     // Start is called before the first frame update
@@ -26,7 +27,7 @@ public class FlickerLight : MonoBehaviour
             }
             else
             {
-                changeTime = Time.time + Random.Range(timeMin, timeMax);
+                changeTime = Time.time + Random.Range(offMin, timeMin);
             }
         }
     }
