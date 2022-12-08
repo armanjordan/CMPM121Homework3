@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.007875491, g: 0.029294485, b: 0.15386382, a: 1}
+  m_IndirectSpecularColor: {r: 0.007856586, g: 0.029214475, b: 0.1537363, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -5240,13 +5240,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 86923041}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -2.92, y: 5.17, z: 59.581}
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0.0027730465, y: 2.5450363, z: -0.026679993}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_Father: {fileID: 145256529}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!1001 &145256528
 PrefabInstance:
@@ -5301,7 +5301,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8906086579256230093, guid: 29ae8eae1c5884da989b3fa8d61401cc, type: 3}
       propertyPath: m_Name
-      value: naked_tree (1)
+      value: click tree
       objectReference: {fileID: 0}
     - target: {fileID: 8906086579256230093, guid: 29ae8eae1c5884da989b3fa8d61401cc, type: 3}
       propertyPath: m_Layer
@@ -10296,13 +10296,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 204473708}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -25.2, y: 3.16, z: 55.92}
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0.01922226, y: 0.5350363, z: -0.043128967}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_Father: {fileID: 1399947286}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!1 &214818374
 GameObject:
@@ -15108,13 +15108,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 214818374}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -9.6, y: 3.34, z: 38.34}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -0.099999905, y: 0.8937964, z: -0.12499809}
+  m_LocalScale: {x: 1.25, y: 1.2499999, z: 1.2499999}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_Father: {fileID: 424306027}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!1 &217834474
 GameObject:
@@ -15369,7 +15369,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4841061600697754438, guid: 580d24e56948b490598ab382c0b4d7a1, type: 3}
       propertyPath: m_Name
-      value: radioactive pumpkin
+      value: click pumpkin
       objectReference: {fileID: 0}
     - target: {fileID: 4841061600697754438, guid: 580d24e56948b490598ab382c0b4d7a1, type: 3}
       propertyPath: m_Layer
@@ -20512,13 +20512,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 301989716}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -27.49, y: 3.16, z: 40.66}
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0.20000005, z: 0.020000458}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_Father: {fileID: 266132177}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!1 &329294592
 GameObject:
@@ -25324,13 +25324,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 329294592}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 8.699, y: 3.62, z: 47.712}
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0.01999569, y: 1.04, z: -0.22799635}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_Father: {fileID: 1747945587}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!1001 &342066852
 PrefabInstance:
@@ -25799,7 +25799,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7775953848205979001, guid: 1f3eda802988747c298e2d0a5c729760, type: 3}
       propertyPath: m_Name
-      value: shrub
+      value: click shrub
       objectReference: {fileID: 0}
     - target: {fileID: 7775953848205979001, guid: 1f3eda802988747c298e2d0a5c729760, type: 3}
       propertyPath: m_Layer
@@ -32044,7 +32044,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!1001 &916657413
 PrefabInstance:
@@ -33371,7 +33371,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6908711010690672192, guid: cbc1d3b7475814f20818245d9e54aca9, type: 3}
       propertyPath: m_Name
-      value: stone_2 (4)
+      value: click stone
       objectReference: {fileID: 0}
     - target: {fileID: 6908711010690672192, guid: cbc1d3b7475814f20818245d9e54aca9, type: 3}
       propertyPath: m_Layer
@@ -34027,6 +34027,10 @@ PrefabInstance:
       value: -0.02
       objectReference: {fileID: 0}
     - target: {fileID: 8041161869313742616, guid: 3ef7289946b204a5793aa0a6014e4dc6, type: 3}
+      propertyPath: m_Name
+      value: click cart
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041161869313742616, guid: 3ef7289946b204a5793aa0a6014e4dc6, type: 3}
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
@@ -34377,6 +34381,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 9128216963764189511, guid: 6cb72a3a9142647be8a73b9b0658c5b7, type: 3}
   m_PrefabInstance: {fileID: 1710933724}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1747945587 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1784079997320049067, guid: 3ef7289946b204a5793aa0a6014e4dc6, type: 3}
+  m_PrefabInstance: {fileID: 1562200378}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1758965928
 PrefabInstance:
