@@ -10,9 +10,13 @@
      float maxDistance = 100;
      private int layerMask = 1 << 6;
 
+     [SerializeField]
+     private GameObject particles;
+
      void Start() 
      {
         numItems = 0;
+        particles.SetActive(false);
      }
      
      void Update()
@@ -26,6 +30,10 @@
                 print(numItems);
                 Destroy(hit.collider);
             }
+         }
+
+         if (numItems >=5 ) {
+            particles.SetActive(true);
          }
      }
  }
