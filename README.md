@@ -3,14 +3,15 @@ Main project for CMPM121 Fall quarter (Game Mechanics)
 
 ReadMe:
 
-My scene is a small section of a small town. It shows a single house by the road, 
-with a small farm in its backyard and a supermarket next-door. There are woods 
-behind the supermarket and a plane flying through the clouds overhead. I included 
-bigger objects like houses and supermarkets, but also smaller ones like grass, rocks, 
-shrubs, and pumpkins. I looked through the unity asset store to draw inspiration, 
-and I consistently liked the simplistic art style of the low polygon scenes I would see. 
-So I sought out to make one of my own. The main character in this scene is the object male_1, 
-a man dressed in all black standing across the road from the main house, looking towards it.
+For our game, we decided to implement the Mystery minigame. The player
+plays in the first-person perspective, using arrow keys or WASD to move, and
+looking around with the mouse. The 'clues' scattered around the scene are 5
+enchanted objects, which are denoted by colorful particle effects. When each of
+these clues are interacted with by clicking on them, their particle effect goes
+away. When all 5 objects are interacted with, Christmas begins and it starts to
+snow! The post-processing effect we used for the scene was an anti-aliasing filter
+on the main camera.
+
 
 Objects:
 
@@ -40,4 +41,4 @@ Part of “Distant Lands Free Characters” pack on unity store:
 Part of “Fantasy Skybox FREE” pack on unity store:
 FS002_day (found it)
 
-link to video: https://drive.google.com/file/d/1BsDRNojOpO1u404c8QoXEBveL2wwjZq7/view?usp=sharing
+link to video: https://drive.google.com/file/d/12_4-X_qOC96d1_FmRETmD-UMIgMBAqML/view?usp=sharing
